@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    position: relative;
+    background: rgb(2, 59, 112);
+}
+*{
+    font-family: sans-serif;
+}
+.container{
+    width: 400px;
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0rem 0rem 3rem rgba(230, 230, 230, 0.2);
+    border-radius: 4px;
+}
+.container h3{
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: .5rem 0rem;
+    position: relative;
+    color: #222;
+}
+.countdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin: 1rem 0rem;
+    user-select: none;
+}
+.countdown div{
+    background: rgb(255, 255, 255);
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0rem 0rem 3rem rgba(0, 0, 0, 0.2);
+    padding: .1rem;
+}
+.countdown div span:first-child{
+    font-size: 2rem;
+}
+.countdown div span{
+    display: block;
+    text-align: center;
+    font-size: .9rem;
+    margin: 0rem 0rem;
+}
